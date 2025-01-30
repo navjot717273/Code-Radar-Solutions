@@ -2,7 +2,7 @@
 
 int main() {
     char a;
-    char s[99]="Special Character";
+    char s[]="Special Character";
     scanf("%c",&a);
     for(char b='a';b<='z';b++)
     {
