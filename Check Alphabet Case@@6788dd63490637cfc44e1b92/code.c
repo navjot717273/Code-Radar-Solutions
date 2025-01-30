@@ -11,7 +11,7 @@ int main() {
         if(a==c)
         {
             printf("Uppercase");
-            b++;
+            b=b+1;
         }
         
     }
@@ -20,7 +20,7 @@ int main() {
         if(a==d)
         {
             printf("Lowercase");
-            c++;
+            c=c+1;
         }
     }
     if(b>0 || c>0){
