@@ -14,10 +14,10 @@ int main() {
     {
         max=b;
     }
-    else if(c>max){
+    else if(c>max)
+    {
         max=c;
     }
-    
     printf("%d",max);
     return 0;
 }
