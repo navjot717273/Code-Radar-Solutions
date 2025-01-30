@@ -23,7 +23,7 @@ int main() {
             c++;
         }
     }
-    if(b==1 || c==1){
+    if(b>0 || c>0){
         printf("Not an alphabet");
     }
     return 0;
