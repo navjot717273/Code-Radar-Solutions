@@ -6,18 +6,17 @@ int main() {
     int c;
     int max=0;
     scanf("%d %d %d",&a,&b,&c);
-    if(a>max)
+    if(a>b && a>c)
     {
-        max=a;
+        printf("%d",a);
     }
-    if(b>max)
+    if(b>a && b>c)
     {
-        max=b;
+        printf("%d",b);
     }
-    if(c>max)
+    if(c>a && a>b)
     {
-        max=c;
+        printf("%d",c);
     }
-    printf("%d",max);
     return 0;
 }
