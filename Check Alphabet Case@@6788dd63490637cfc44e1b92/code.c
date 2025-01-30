@@ -4,15 +4,17 @@
 int main() {
     char a;
     scanf("%c",&a);
-    for(char c='A';c<'Z';c++)
+    for(char c='A';c<='Z';c++)
     {
         if(a==c)
         {
             printf("Uppercase");
         }
-        else{
-            printf("Lowercase");
-        }
+        
+    }
+    for(char d='a';d<='z';d++)
+    {
+        printf("Lowercase");
     }
     return 0;
 }
