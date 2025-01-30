@@ -9,14 +9,15 @@ int main() {
     if(a>max)
     {
         max=a;
-        if(b>max)
+    }
+    else if(b>max)
         {
             max=b;
         }
-        else if(c>max){
+    else if(c>max){
             max=c;
         }
-    }
+    
     printf("%d",max);
     return 0;
 }
