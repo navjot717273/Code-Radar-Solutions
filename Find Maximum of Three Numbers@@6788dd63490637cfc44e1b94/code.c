@@ -11,12 +11,12 @@ int main() {
         max=a;
     }
     else if(b>max)
-        {
-            max=b;
-        }
+    {
+        max=b;
+    }
     else if(c>max){
-            max=c;
-        }
+        max=c;
+    }
     
     printf("%d",max);
     return 0;
