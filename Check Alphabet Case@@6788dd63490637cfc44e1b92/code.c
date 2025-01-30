@@ -3,8 +3,8 @@
 
 int main() {
     char a;
-    int b;
-    int c;
+    int b=0;
+    int c=0;
     scanf("%c",&a);
     for(char c='A';c<='Z';c++)
     {
