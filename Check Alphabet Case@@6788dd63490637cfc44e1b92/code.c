@@ -14,7 +14,10 @@ int main() {
     }
     for(char d='a';d<='z';d++)
     {
-        printf("Lowercase");
+        if(a==d)
+        {
+            printf("Lowercase");
+        }
     }
     return 0;
 }
