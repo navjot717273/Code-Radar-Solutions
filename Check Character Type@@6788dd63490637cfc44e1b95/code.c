@@ -19,6 +19,6 @@ int main() {
     {
         s="Digit";
     }
-    printf("%c",s);
+    printf("%s",s);
     return 0;
 }
