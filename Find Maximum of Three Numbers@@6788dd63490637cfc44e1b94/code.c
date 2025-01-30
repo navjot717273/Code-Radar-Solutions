@@ -14,7 +14,7 @@ int main() {
     {
         printf("%d",b);
     }
-    if(c>a && a>b)
+    if(c>a && c>b)
     {
         printf("%d",c);
     }
