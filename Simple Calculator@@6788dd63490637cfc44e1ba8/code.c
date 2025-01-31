@@ -27,6 +27,12 @@ int main() {
             int d=a/b;
             printf("%d",d);
         }
+        else{
+            printf("error");
+        }
+    }
+    else{
+        printf("error");
     }
     return 0;
 }
