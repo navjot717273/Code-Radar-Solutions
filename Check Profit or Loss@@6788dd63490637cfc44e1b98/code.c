@@ -12,7 +12,7 @@ int main() {
     }
     else if(b>a)
     {
-        printf("Profit";)
+        printf("Profit");
     }
     else if(a==b)
     {
