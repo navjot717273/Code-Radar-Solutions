@@ -10,9 +10,9 @@ int main() {
         int d=a+b;
         printf("%d",d);
     }
-    else if(c=='/')
+    else if(c=='*')
     {
-        int d=a/b;
+        int d=a*b;
         printf("%d",d);
     }
     return 0;
