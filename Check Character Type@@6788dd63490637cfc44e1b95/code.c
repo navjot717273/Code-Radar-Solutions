@@ -12,7 +12,7 @@ int main() {
             q=q+1;
         }
     }
-    if(a=='a'|| a=='e' || a=='i' || a=='o' || a=='u')
+    if(a=='a'|| a=='e' || a=='i' || a=='o' || a=='u' || a=='A' || a=='E' || a=='I' || a=='O' || a=='U')
     {
         printf("Vowel");
         q=q+1;
@@ -22,7 +22,7 @@ int main() {
         printf("Digit");
         q=q+1;
     }
-    else
+    if(q==0)
     {
         printf("Special Character");
     }
