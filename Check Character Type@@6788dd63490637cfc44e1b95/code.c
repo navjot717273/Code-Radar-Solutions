@@ -22,7 +22,7 @@ int main() {
         printf("Digit");
         q=q+1;
     }
-    if(q==0)
+    else
     {
         printf("Special Character");
     }
