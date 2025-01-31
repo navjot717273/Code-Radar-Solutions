@@ -9,22 +9,22 @@ int main() {
     if(c=='+')
     {
         d=a+b;
-        printf(d);
+        printf("%d",d);
     }
     else if(c=='-')
     {
         d=a-b;
-        printf(d);
+        printf("%d",d);
     }
     else if(c=='*')
     {
         d=a*b;
-        printf(d);
+        printf("%d",d);
     }
     else if(c=='/')
     {
         d=a/b;
-        printf(d);
+        printf("%d",d);
     }
     return 0;
 }
