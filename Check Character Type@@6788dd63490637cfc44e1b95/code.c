@@ -6,7 +6,7 @@ int main() {
     scanf("%c",&a);
     for(char b='a';b<='z';b++)
     {
-        if(a==b)
+        if(a==b && a!='a' && a!='e' && a!='i' && a!='o' && a!='u' )
         {
             printf("Consonant");
             q=q+1;
