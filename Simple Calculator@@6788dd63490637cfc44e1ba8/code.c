@@ -22,8 +22,11 @@ int main() {
     }
     else if(c=='/')
     {
-        int d=a/b;
-        printf("%d",d);
+        if(b!=0)
+        {
+            int d=a/b;
+            printf("%d",d);
+        }
     }
     return 0;
 }
