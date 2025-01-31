@@ -15,5 +15,8 @@ int main() {
     {
         printf("Divisible by Both");
     }
+    else{
+        printf("Not Divisible");
+    }
     return 0;
 }
