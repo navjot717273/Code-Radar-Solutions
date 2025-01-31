@@ -3,7 +3,7 @@
 int main() {
     int a;
     int b;
-    char c;
+    char c[99];
     int d;
     scanf("%d %d %c",&a,&b,&c);
     if(c=='+')
