@@ -8,11 +8,11 @@ int main() {
     for(int s=0;s<a;s++)
     {
         k=0;
-        for(int i=0;i<a-s;++i)
+        for(int i=0;i<(a-s);++i)
         {
             printf(" "); 
         }
-        while(k!=2*i-1){
+        while(k!=((2*i)-1)){
             printf("*");
             ++k;
         }
