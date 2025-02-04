@@ -4,21 +4,18 @@
 int main() {
     int a;
     scanf("%d",&a);
-    int b=a;
-    for(int s=0;s<a;s++)
+    int k=0;
+    for(int s=0;s<a;s++;k=0)
     {
-        for(int i=0;i<(a*2);i++)
-        {
-            if(i<(b-1))
-            {
-                printf(" ");
-            }
-            else{
-                printf("*");
-            }
+        for(int i=0;i<a-s;++i)
+        {printf(" ");
+           
+        }
+        while(k!=2*i-1){
+            printf("*");
+            ++k;
         }
         printf("\n");
-        b--;
     }
     return 0;
 }
