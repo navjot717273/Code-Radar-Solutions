@@ -9,12 +9,12 @@ int main() {
     {
         for(int i=0;i<(a*2);i++)
         {
-            if((i<(b-1))||(i>=b))
+            if((i<(b-1))&&(i>=b))
             {
-                printf(" ");
+                printf("*");
             }
             else{
-                printf("*");
+                printf(" ");
             }
         }
         printf("\n");
