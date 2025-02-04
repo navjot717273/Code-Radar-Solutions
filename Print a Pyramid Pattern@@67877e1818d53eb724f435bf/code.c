@@ -9,7 +9,7 @@ int main() {
     {
         for(int i=0;i<(a*2);i++)
         {
-            if(i<(b-1))
+            if((i<(b-1))||(i>(b-1)))
             {
                 printf(" ");
             }
