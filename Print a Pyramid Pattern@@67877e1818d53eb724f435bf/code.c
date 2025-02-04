@@ -11,10 +11,10 @@ int main() {
         {
             if(i<(b-1))
             {
-                printf("*");
+                printf(" ");
             }
             else{
-                printf(" ");
+                printf("*");
             }
         }
         printf("\n");
