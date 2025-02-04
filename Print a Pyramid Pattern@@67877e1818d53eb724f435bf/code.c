@@ -12,7 +12,7 @@ int main() {
         {
             printf(" "); 
         }
-        while(k!=((2*i)-1)){
+        while(k!=2*s-1){
             printf("*");
             ++k;
         }
