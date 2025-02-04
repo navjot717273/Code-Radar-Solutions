@@ -7,13 +7,13 @@ int main() {
     for(int s=0;s<a;s++)
     {
         int k=0;
-        for(int i=0;i<(a-s);++i)
+        for(int i=0;i<(a-s);i++)
         {
             printf(" "); 
         }
         while(k!=2*s-1){
             printf("*");
-            ++k;
+            k++;
         }
         printf("\n");
     }
