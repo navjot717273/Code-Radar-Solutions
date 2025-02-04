@@ -11,9 +11,9 @@ int main() {
             b[i][j]='*';
         }
     }
-    for(int i=1;i<(a/2);i++)
+    for(int i=1;i<=(a/2);i++)
     {
-        for(int j=1;j<(a/2);j++)
+        for(int j=1;j<=(a/2);j++)
         {
             b[i][j]=' ';
         }
