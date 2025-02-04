@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 int main() {
     int a;
     scanf("%d",&a);
@@ -9,7 +7,7 @@ int main() {
     {
         for(int j=0;j<a;j++)
         {
-            if(i>=1 && i<=(a/2) && j>=1 && j<=(a/2))
+            if(i>=1 && i<(a/2) && j>=1 && j<(a/2))
             {
                 printf(" ");
             }
