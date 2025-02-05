@@ -5,12 +5,15 @@ int main() {
     scanf("%d",&a);
     int b[];
     for(int i=0;i<a;i++){
-        scanf("%d",&b[i]);
+        int k;
+        scanf("%d",&k);
+        a[i]=k;
     }
     int c;
     scanf("%d",&c);
     for(int i=0;i<a;i++){
-        printf("%d",b[i]);
+        int m=a[i];
+        printf("%d",m);
     }
 
     return 0;
