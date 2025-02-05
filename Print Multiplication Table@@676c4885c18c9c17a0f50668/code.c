@@ -8,7 +8,7 @@ int main() {
         printf(" x");
         printf(" %d";i);
         printf(" =");
-        printf(" %d\n",n*i);
+        printf(" %d\n",a*i);
     }
     return 0;
 }
