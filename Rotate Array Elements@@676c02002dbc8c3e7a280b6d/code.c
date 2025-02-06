@@ -11,7 +11,7 @@ int main() {
     scanf("%d",&c);
     for(int i=0;i<a;i++){
         int m=b[i];
-        printf("%d",m);
+        printf("%d\n",m);
     }
 
     return 0;
