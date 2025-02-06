@@ -12,8 +12,8 @@ int main() {
     while(c>0){
         int z=0;
         for(int i=a;i>0;i--){
-            int t=b[a];
-            b[a]=b[z];
+            int t=b[i];
+            b[i]=b[z];
             b[z]=t;
             z++;
         }
