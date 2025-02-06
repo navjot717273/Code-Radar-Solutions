@@ -3,6 +3,7 @@
 int main() {
     char a[50];
     scanf("%s",&a);
-    printf("%s",a);
+
+    printf("%s",strrec(a));
     return 0;
 }
