@@ -13,5 +13,5 @@ int main()
  
     printf("%d",clearBit(n, k));
  
-    return 0;
+    return 0;
 }
