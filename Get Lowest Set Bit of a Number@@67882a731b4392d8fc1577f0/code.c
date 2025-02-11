@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-int num, order, i;
+    int num, order, i;
 
  
   
