@@ -16,7 +16,7 @@ int main() {
         printf("Sorted");
     }
     else{
-        printf("Not Sorted");
+        printf("%d",k);
     }
 
 return 0;
