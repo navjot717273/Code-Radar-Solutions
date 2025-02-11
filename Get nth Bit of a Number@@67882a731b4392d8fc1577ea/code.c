@@ -2,7 +2,8 @@
 
 int main() {
     int a;
-    scanf("%d",&a);
+    int b;
+    scanf("%d %d",&a,&b);
     if((a>>b)&1){
         printf("0");
     }
