@@ -5,7 +5,6 @@ int main()
     int num, count, i;
 
    
-    printf("Enter any number: ");
     scanf("%d", &num);
 
     count = 0;
