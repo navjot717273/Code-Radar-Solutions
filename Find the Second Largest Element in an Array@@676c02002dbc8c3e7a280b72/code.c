@@ -7,8 +7,8 @@ int main() {
         scanf("%d",&a[s]);
     }
     for(int s=0;s<n;s++){
-        for(int k=1;k<n;k++){
-            if(a[s]<a[k]){
+        for(int k=0;k<n-1;k++){
+            if(a[k]<a[k+1]){
                 int t=a[s];
                 a[s]=a[k];
                 a[k]=t;
