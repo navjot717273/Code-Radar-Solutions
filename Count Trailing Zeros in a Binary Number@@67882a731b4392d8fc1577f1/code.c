@@ -1,27 +1,30 @@
-using System;
- 
-namespace CountTrailingZeroes
+#include <stdio.h>
+#define INT_SIZE sizeof(int) * 8
+int main()
 {
-    class Program
-    {   
+    int num, count, i;
+
+   
+    printf("Enter any number: ");
+    scanf("%d", &num);
+
+    count = 0;
+
+   
+    for(i=0; i<INT_SIZE; i++)
+    {
+       
+        if((num >> i ) & 1)
+        {
          
-        static int CountTrailingZeroes(int n)
-        {
-            int count = 0;
-             
-            while ((n & 1) == 0)
-            {
-                count += 1;
-                n >>= 1;
-            }
-             
-            return count;
+            break;
         }
- 
-        static void Main(string[] args)
-        {
-            int n1 = 16;
-            Console.WriteLine(CountTrailingZeroes(n1));
-        }
+
+        
+        count++;
     }
+
+    printf("%d", count);
+
+    return 0;
 }
