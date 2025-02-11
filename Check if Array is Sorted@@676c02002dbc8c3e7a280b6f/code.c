@@ -8,7 +8,7 @@ int main() {
     }
     int k=0;
     for(int s=1;s<n;s++){
-        if(a[s-1]>a[s]){
+        if(a[s-1]>=a[s]){
             k=k+1;
         }
     }
