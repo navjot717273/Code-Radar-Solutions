@@ -8,13 +8,13 @@ int main() {
     }
     for(int s=0;s<n;s++){
         for(int k=1;k<n;k++){
-            if(a[s]<a[k]){
+            if(a[s]>a[k]){
                 int t=a[s];
                 a[s]=a[k];
                 a[k]=t;
             }
         }
     }
-    printf("%d",a[1]);
+    printf("%d",a[n-1]);
     return 0;
 }
