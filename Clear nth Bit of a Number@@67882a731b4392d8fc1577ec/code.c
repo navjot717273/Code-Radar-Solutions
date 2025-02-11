@@ -7,7 +7,9 @@ int clearBit(int n, int k)
  
 int main()
 {
-    int n = 5, k = 1;
+    int n;
+    int k;
+    scanf("%d %d",&n,&k);
  
     printf("%d", clearBit(n, k));
  
