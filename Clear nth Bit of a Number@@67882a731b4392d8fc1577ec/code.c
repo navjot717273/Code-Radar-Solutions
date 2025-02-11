@@ -11,7 +11,7 @@ int main()
     int k;
     scanf("%d %d",&n,&k);
  
-    printf("%d", clearBit(n, k));
+    printf("%d",clearBit(n, k));
  
     return 0;
 }
