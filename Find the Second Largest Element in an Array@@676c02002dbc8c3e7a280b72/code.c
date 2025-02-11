@@ -15,6 +15,6 @@ int main() {
             }
         }
     }
-    printf("%d",a[n-2]);
+    printf("%d",a[0]);
     return 0;
 }
