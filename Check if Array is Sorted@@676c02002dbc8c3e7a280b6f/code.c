@@ -12,11 +12,11 @@ int main() {
             k=k+1;
         }
     }
-    if(k==n){
+    if(k+1==n){
         printf("Sorted");
     }
     else{
-        printf("%d",k);
+        printf("Not Sorted");
     }
 
 return 0;
