@@ -9,9 +9,9 @@ int main() {
     
     for(int s=0;s<n;s++){
         for(int k=1;k<n;k++){
-            if(a[k-1]<a[k]){
-                int t=a[k-1];
-                a[k-1]=a[k];
+            if(a[s]<a[k]){
+                int t=a[s];
+                a[s]=a[k];
                 a[k]=t;
             }
             
