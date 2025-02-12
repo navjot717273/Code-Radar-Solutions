@@ -8,6 +8,7 @@ int main() {
     }
     int max=0;
     int v=-1;
+    int f=0;
     for(int s=0;s<n;s++){
         int z=0;
         for(int k=0;k<n;k++){
@@ -19,12 +20,15 @@ int main() {
             max=z;
             v=a[s];
         }
+        else if(z==max){
+            f=0;
+        }
         
     }
-    if(max>0){
+    if(max!=0){
         printf("%d",v);
     }
-    else{
+    else if(f==0){
         printf("-1");
     }
     return 0;
