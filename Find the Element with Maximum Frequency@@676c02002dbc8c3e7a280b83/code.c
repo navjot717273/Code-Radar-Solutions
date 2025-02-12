@@ -15,7 +15,7 @@ int main() {
                 z++;
             }
         }
-        if(z>n/2){
+        if(z>max){
             max=z;
             v=a[s];
         }
