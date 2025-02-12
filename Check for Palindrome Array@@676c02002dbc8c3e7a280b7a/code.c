@@ -7,7 +7,7 @@ int main() {
         scanf("%d",&a[s]);
     }
     int b[n];
-    int q=0
+    int q=0;
     for(int s=n-1;s> -1;s++){
         b[q]=a[s];
         q++;
