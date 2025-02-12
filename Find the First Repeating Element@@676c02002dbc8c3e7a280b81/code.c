@@ -7,7 +7,7 @@ int main() {
         scanf("%d",&a[s]);
     }
     int z=0;
-    int x=0;
+    int x[n];
     for(int s=0;s<n;s++){
         for(int k=0;k<n;k++){
             if(s==k){
@@ -15,8 +15,9 @@ int main() {
             }
             else{
                 if(a[s]==a[k]){
+                    
+                    x=a[z];
                     z++;
-                    x=a[s];
                     break;
                 }
             }
@@ -26,7 +27,7 @@ int main() {
         printf("-1");
     }
     else{
-        printf("%d",x);
+        printf("%d",a[0]);
     }
     return 0;
 }
