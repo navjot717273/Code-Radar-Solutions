@@ -6,6 +6,15 @@ int main() {
     for(int s=0;s<n;s++){
         scanf("%d",&a[s]);
     }
-    
+    for(int s=0;s<n;s++){
+        for(int k=0;k<n-1;k++){
+            if(a[k]>a[k+1]){
+                int t=a[k];
+                a[k]=a[k+1];
+                a[k+1]=t;
+            }
+        }
+    }
+    printf("%d",a[1]);
     return 0;
 }
