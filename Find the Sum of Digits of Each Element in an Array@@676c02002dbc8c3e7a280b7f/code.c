@@ -9,7 +9,7 @@ int main() {
     int b[n];
     for(int s=0;s<n;s++){
         int z=a[s];
-        int q;
+        int q=0;
         while(z>0){
             q=q+z%10;
             z=z/10;
