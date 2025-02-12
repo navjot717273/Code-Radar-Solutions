@@ -6,7 +6,6 @@ int main() {
     for(int s=0;s<n;s++){
         scanf("%d",&a[s]);
     }
-    int max=0;
     int v=-1;
     int f=0;
     for(int s=0;s<n;s++){
@@ -16,19 +15,16 @@ int main() {
                 z++;
             }
         }
-        if(z>max){
+        if(z>n/2){
             max=z;
             v=a[s];
-        }
-        else if(z==max){
-            f=0;
         }
         
     }
     if(max!=0){
         printf("%d",v);
     }
-    else if(f==0){
+    else{
         printf("-1");
     }
     return 0;
