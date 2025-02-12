@@ -16,7 +16,7 @@ int main() {
             else{
                 if(a[s]==a[k]){
                     
-                    x=a[z];
+                    x[z]=a[s];
                     z++;
                     break;
                 }
@@ -27,7 +27,7 @@ int main() {
         printf("-1");
     }
     else{
-        printf("%d",a[0]);
+        printf("%d",x[0]);
     }
     return 0;
 }
