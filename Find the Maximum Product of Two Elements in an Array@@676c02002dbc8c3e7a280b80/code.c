@@ -15,7 +15,13 @@ for(int s=0;s<n;s++){
             }
         }
 }
+if(a[z-2]<0 || a[z-1]<0){
 int z=a[n-2]*a[n-1];
 printf("%d",z);
+}
+else{
+    int z=a[0]*a[1];
+printf("%d",z);
+}
 return 0;
 }
