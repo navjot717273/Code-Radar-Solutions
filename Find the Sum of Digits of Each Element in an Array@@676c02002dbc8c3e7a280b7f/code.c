@@ -8,11 +8,13 @@ int main() {
     }
     int b[n];
     for(int s=0;s<n;s++){
-        b[s]=0;
-        while(a[s]>0){
-            b[s]=b[s]+a[s]%10
-            a[s]=a[s]/10;
+        int z=a[s];
+        int q;
+        while(z>0){
+            q=q+z%10;
+            z=z/10;
         }
+        b[s]=q;
     }
     for(int s=0;s<n;s++){
         printf("%d ",b[s]);
