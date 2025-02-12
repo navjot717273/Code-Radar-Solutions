@@ -8,7 +8,7 @@ int main() {
     }
     int b[n];
     int q=0;
-    for(int s=n-1;s> -1;s++){
+    for(int s=n-1;s> -1;s--){
         b[q]=a[s];
         q++;
     }
