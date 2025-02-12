@@ -15,6 +15,9 @@ int main() {
                 a[k]=t;
                 x++;
             }
+            else if(a[k-1]>a[k]){
+                x++;
+            }
         }
     }
     if(x==0){
