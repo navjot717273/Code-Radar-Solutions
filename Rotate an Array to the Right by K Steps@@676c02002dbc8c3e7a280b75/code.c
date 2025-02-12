@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&x);
     while(x>0){
         int q=n-2;
-        for(int s=n;s>2;s--){
+        for(int s=n-1;s>2;s--){
             int t=a[s];
             a[s]=a[q];
             a[q]=t;
