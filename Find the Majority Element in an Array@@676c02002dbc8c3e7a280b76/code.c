@@ -7,7 +7,7 @@ int main() {
         scanf("%d",&a[s]);
     }
     int v=-1;
-    int f=0;
+    int max=0;
     for(int s=0;s<n;s++){
         int z=0;
         for(int k=0;k<n;k++){
