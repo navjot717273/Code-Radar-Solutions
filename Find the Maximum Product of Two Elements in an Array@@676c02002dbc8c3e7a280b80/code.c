@@ -20,9 +20,12 @@ for(int s=0;s<n;s++){
             }
         }
 }
-
+if(a[n-2]==a[n-1]){
+    printf("5");
+}
+else{
 int z=a[n-2]*a[n-1];
 printf("%d",z);
-
+}
 return 0;
 }
