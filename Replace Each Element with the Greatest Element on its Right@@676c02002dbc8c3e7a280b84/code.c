@@ -13,7 +13,6 @@ int main() {
                 int t=a[k-1];
                 a[k-1]=a[k];
                 a[k]=t;
-                x++;
             }
             
         }
