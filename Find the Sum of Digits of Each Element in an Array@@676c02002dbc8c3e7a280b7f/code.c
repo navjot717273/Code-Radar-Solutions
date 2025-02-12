@@ -8,13 +8,24 @@ int main() {
     }
     int b[n];
     for(int s=0;s<n;s++){
-        int z=a[s];
+
+        if(a[s]<0){
+        int z=-a[s];
         int q=0;
         while(z>0){
             q=q+z%10;
             z=z/10;
         }
+        b[s]=q;}
+        else{
+            int z=a[s];
+            int q=0;
+            while(z>0){
+                q=q+z%10;
+                z=z/10;
+        }
         b[s]=q;
+        }
     }
     for(int s=0;s<n;s++){
         printf("%d ",b[s]);
