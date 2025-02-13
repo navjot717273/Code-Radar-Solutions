@@ -21,6 +21,8 @@ int main() {
             x++;
         }
     }
+    x=x+1;
+    b[x]=a[n-1];
     for(int s=0;s<x;s++){
         printf("%d",b[s]);
     }
