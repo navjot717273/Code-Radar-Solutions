@@ -6,24 +6,17 @@ int main() {
     for(int s=0;s<n;s++){
         scanf("%d",&a[s]);
     }
-    int z=0;
+    int z=a[0];
     int k=0;
+    int v=0;
     for(int s=0;s<n;s++){
-        for(int k=0;k<n;k++){
-            if(s==k){
-                continue;
-            }
-            else{
-                if(a[s]<a[k]){
-                    z++;
-                    if(z==1){
-                        k=a[s];
-                    }
-                }
+        if(z<a[s]){
+            k++;
+            if(k==1){
+                v=a[s];
             }
         }
     }
-    printf("%d",k);
-
+    printf("%d",v);
     return 0;
 }
