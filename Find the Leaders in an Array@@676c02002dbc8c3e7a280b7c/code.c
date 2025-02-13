@@ -8,9 +8,9 @@ int main() {
     }
     int b[n];
     int x=0;
-    
+    int z=0;
     for(int s=0;s<n;s++){
-        int z=0;
+        z=0;
         for(int k=s+1;k<n;k++){
             if(a[s]>=a[k]){
                 z++;   
