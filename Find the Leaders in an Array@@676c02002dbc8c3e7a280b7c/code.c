@@ -11,16 +11,12 @@ int main() {
     int z=0;
     for(int s=0;s<n;s++){
         z=0;
-        for(int k=s;k<n;k++){
-            if(k==s){
-                continue;
-            }
-            else{
-            if(a[s]>=a[k]){
+        for(int k=s+1;k<n;k++){
+            if(a[s]!>=a[k]){
                 z++;   
-            }}
+            }
         }
-        if(z==(k-s)){
+        if(z>0){
             b[x]=a[s];
             x++;
         }
