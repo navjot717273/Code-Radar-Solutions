@@ -9,7 +9,7 @@ int main() {
     int k;
     scanf("%d",&k);
     for(int s=0;s<n;s++){
-        for(int j=0;j<n;j++){
+        for(int j=s+1;j<n;j++){
             if(s==j){
                 continue;
             }
