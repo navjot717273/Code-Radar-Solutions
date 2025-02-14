@@ -8,7 +8,7 @@ int main() {
     }
     int k;
     scanf("%d",&k);
-    for(int s=0;s<n;s++){
+    for(int s=0;s<n/2;s++){
         for(int j=0;j<n;j++){
             if(s==j){
                 continue;
