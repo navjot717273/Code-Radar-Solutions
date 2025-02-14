@@ -1,5 +1,5 @@
 #include <stdio.h>
-isPrime(int n){
+int isPrime(int n){
     int k=0;
     for(int s=1;s<=n;s++){
         if(n%s==0){
