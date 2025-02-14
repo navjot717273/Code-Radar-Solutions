@@ -7,12 +7,12 @@ int main() {
         scanf("%d",&a[s]);
     }
     if(n%2==0){
-        int k=(a[n/2]+a[(n/2)+1])/2;
-        printf("%d",k);
+        int x=(a[n/2]+a[(n/2)+1])/2;
+        printf("%d",x);
     }
     else{
         int k=(n+1)/2;
-        printf("%d",&a[(n+1)/2]);
+        printf("%d",&a[k]);
     }
 
     return 0;
