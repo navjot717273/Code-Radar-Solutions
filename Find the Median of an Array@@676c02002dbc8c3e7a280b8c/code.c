@@ -11,7 +11,7 @@ int main() {
         printf("%d",x);
     }
     else{
-        int k=0
+        int k=0;
         k=(n+1)/2;
         printf("%d",a[k]);
     }
