@@ -12,7 +12,7 @@ int main() {
     }
     else{
         int k=(n+1)/2;
-        printf("%d",&a[k]);
+        printf("%d",a[k]);
     }
 
     return 0;
