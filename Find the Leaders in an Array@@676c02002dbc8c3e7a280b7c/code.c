@@ -9,12 +9,16 @@ int main() {
     int b[n];
     int x=0;
     int z=0;
-    for(int s=0;s<n-1;s++){
+    for(int s=0;s<n;s++){
         z=0;
-        for(int k=s+1;k<n;k++){
+        for(int k=s;k<n;k++){
+            if(k==s){
+                continue;
+            }
+            else{
             if(a[s]>=a[k]){
                 z++;   
-            }
+            }}
         }
         if(z==(k-s)){
             b[x]=a[s];
