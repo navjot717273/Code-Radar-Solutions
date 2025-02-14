@@ -12,11 +12,12 @@ int main() {
     for(int s=0;s<n;s++){
         z=0;
         for(int k=s+1;k<n;k++){
-            if(a[s]!>=a[k]){
+
+            if(a[s]>=a[k]){
                 z++;   
             }
         }
-        if(z>0){
+        if(z==(k-s)){
             b[x]=a[s];
             x++;
         }
@@ -24,7 +25,7 @@ int main() {
     x=x+1;
     b[x]=a[n-1];
     for(int s=0;s<x;s++){
-        printf("%d",b[s]);
+        printf("%d ",b[s]);
     }
     return 0;
 }
