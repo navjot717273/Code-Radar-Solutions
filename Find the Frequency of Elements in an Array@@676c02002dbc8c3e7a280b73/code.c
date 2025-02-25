@@ -10,7 +10,7 @@ int main() {
     b[0]=a[0];
     for(int s=0;s<n;s++){
         for(int j=0;j<sizeof(b);j++){
-            if(a[s]==b[j]){
+            if(a[s]!=b[j]){
                 continue;
             }
             else{
