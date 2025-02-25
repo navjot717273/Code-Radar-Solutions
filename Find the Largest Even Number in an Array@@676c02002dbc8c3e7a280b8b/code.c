@@ -6,13 +6,13 @@ int main(){
     for(int s=0;s<n;s++){
         scanf("%d",&a[s]);
     }
-    int z=-1;
+    int z=0;
     int max=0;
     for(int s=0;s<n;s++){
         if(a[s]%2==0){
             max=a[s];
+            z++;
             if(a[s]> max){
-                z=1;
                 max=a[s];
             }
         }
