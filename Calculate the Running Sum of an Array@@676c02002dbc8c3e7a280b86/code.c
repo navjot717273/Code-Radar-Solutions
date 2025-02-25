@@ -13,7 +13,7 @@ int main(){
         b[s]=k;
     }
     for(int s=0;s<n;s++){
-        printf("%d",b[s]);
+        printf("%d ",b[s]);
     }
     return 0;
 }
