@@ -25,7 +25,7 @@ int main(){
     }
     }
     else{
-        for(int s=0;s<n;s++){
+        for(int s=n-1;s> -1;s--){
             a[s]=-a[s];
             if(a[s]%2==0){
             z=-a[s];
@@ -33,11 +33,11 @@ int main(){
         }
         }
     }
-    if(z>0){
-        printf("%d",z);
+    if(z==0){
+        printf("-1");
     }
     else{
-        printf("-1");
+        printf("%d",z);
     }
 
 
