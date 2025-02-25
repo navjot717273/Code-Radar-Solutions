@@ -10,7 +10,7 @@ int main(){
     int max=0;
     for(int s=0;s<n;s++){
         if(a[s]%2==0){
-            if(a[s]>max){
+            if(a[s]< -max){
                 z=1;
                 max=a[s];
             }
