@@ -13,6 +13,10 @@ int main() {
             if(s==j){
                 continue;
             }
+            else if(a[s]==a[j]){
+                printf("%d %d\n",a[s],a[j]);
+                break;
+            }
             else{
                 if((a[s]+a[j])==k){
                     printf("%d %d\n",a[s],a[j]);
