@@ -13,7 +13,7 @@ int main(){
             q++;
         }}
         for(int s=0;s<n-1;s++){
-        else if(a[s]<=a[s+1]){
+        if(a[s]<=a[s+1]){
             w++;
         }
     }
