@@ -8,7 +8,7 @@ int main(){
     }
     int z=0;
     int max=0;
-    int x=0
+    int x=0;
     for(int s=0;s<n;s++){
         if(a[s]%2==0){
             max=a[s];
