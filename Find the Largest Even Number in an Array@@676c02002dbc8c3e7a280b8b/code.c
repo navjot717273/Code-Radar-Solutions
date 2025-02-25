@@ -16,10 +16,20 @@ int main(){
         }
     }
     int z=0;
+    if(a[0]>=0){
     for(int s=0;s<n;s++){
         if(a[s]%2==0){
             z=a[s];
             break;
+        }
+    }
+    }
+    else{
+        for(int s=n-1;s> -1;s--){
+            if(a[s]%2==0){
+            z=a[s];
+            break;
+        }
         }
     }
     if(z>0){
