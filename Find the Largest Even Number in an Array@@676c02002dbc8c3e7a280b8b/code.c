@@ -28,7 +28,7 @@ int main(){
         for(int s=n-1;s> -1;s--){
             a[s]=-a[s];
             if(a[s]%2==0){
-            z=a[s];
+            z=-a[s];
             break;
         }
         }
