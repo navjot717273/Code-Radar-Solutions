@@ -8,10 +8,10 @@ int main(){
     }
     for(int s=0;s<n;s++){
         for(int j=0;j<n-1;j++){
-            if(arr[j]>arr[j+1]){
-                int t=arr[j];
-                arr[j]=arr[j+1];
-                arr[j+1]=t;
+            if(a[j]>a[j+1]){
+                int t=a[j];
+                a[j]=a[j+1];
+                a[j+1]=t;
             }
         }
     }
