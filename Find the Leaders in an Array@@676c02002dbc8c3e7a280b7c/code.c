@@ -9,6 +9,7 @@ int main() {
     int b[n];
     int x=0;
     int z=0;
+    int k=0;
     for(int s=0;s<n;s++){
         z=0;
         for(int k=s+1;k<n;k++){
