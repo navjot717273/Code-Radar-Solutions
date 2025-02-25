@@ -6,20 +6,24 @@ int main(){
     for(int s=0;s<n;s++){
         scanf("%d",&a[s]);
     }
-    int z=0;
-    int max=0;
-    int x=0;
     for(int s=0;s<n;s++){
-        if(a[s]%2==0){
-            max=a[s];
-            z++;
-            if(a[s]> max){
-                x=a[s];
+        for(int j=0;j<n-1;j++){
+            if(a[j]<a[j+1]){
+                int t=a[j];
+                a[j]=a[j+1];
+                a[j+1]=t;
             }
         }
     }
+    int z=0;
+    for(int s=0;s<n;s++){
+        if(a[s]%2==0){
+            z=a[s];
+            break;
+        }
+    }
     if(z>0){
-        printf("%d",x);
+        printf("%d",z);
     }
     else{
         printf("-1");
