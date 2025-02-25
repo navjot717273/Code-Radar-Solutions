@@ -19,7 +19,7 @@ int main() {
         }
     }
     for(int s=0;s<sizeof(b);s++){
-        printf("%d",b[s]);
+        printf("%d ",b[s]);
     }
 
     return 0;
