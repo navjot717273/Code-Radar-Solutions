@@ -7,13 +7,14 @@ int main() {
         scanf("%d",&a[s]);
     }
     for(int s=0;s<n;s++){
-        int x=0;
-        for(int j=0;j<n;j++){
+        int x=1;
+        for(int j=s+1;j<=n;j++){
             if(a[s]==a[j]){
                 x++;
             }
         }
-        printf("%d %d\n",a[s],x);
+        if(x>1){
+        printf("%d %d\n",a[s],x);}
     }
 
     return 0;
