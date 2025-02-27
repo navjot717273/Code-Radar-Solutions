@@ -14,11 +14,11 @@ int main() {
         z=0;
         for(int k=s+1;k<n;k++){
 
-            if(a[s]>=a[k]){
+            if(a[s]!>=a[k]){
                 z++;   
             }
         }
-        if(z==(k-s)){
+        if(z==0){
             b[x]=a[s];
             x++;
         }
