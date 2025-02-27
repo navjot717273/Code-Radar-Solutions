@@ -6,16 +6,28 @@ int main() {
     for(int s=0;s<n;s++){
         scanf("%d",&a[s]);
     }
-    int z=a[0];
+    int min=a[0];
     int k=0;
-    int v=0;
-    for(int s=0;s<n;s++){
-        if(z<a[s]){
-            k++;
-                v=a[s];
-            
+    int y=0;
+    for(int s=0;s<2;s++){
+        for(int j=0;j<n;j++){
+            if(min>a[j]){
+                min=a[j];
+                k=j;
+                y=1;
+            }
+        }
+        if(s==0 && y!=1){
+            a[k]=10000;
+            min=10000;
         }
     }
-    printf("%d",v);
+    if(k==0){
+        printf("-1");
+    }
+    else{
+        printf("%d",min);
+    }
+
     return 0;
 }
