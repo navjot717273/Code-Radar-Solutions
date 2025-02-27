@@ -10,7 +10,7 @@ int main() {
     for(int s=0;s<n-1;s++){
         int x=0;
         for(int j=s+1;j<n;j++){
-            if!(a[s]>=a[j]){
+            if(!(a[s]>=a[j])){
                 x++;
             }
         }
