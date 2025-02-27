@@ -19,7 +19,7 @@ int main() {
             q++;
         }
     }
-    b[q+1]=a[n-1];
+    int b[q+1]=a[n-1];
     for(int s=0;s<sizeof(b);s++){
         printf("%d ",b[s]);
     }
