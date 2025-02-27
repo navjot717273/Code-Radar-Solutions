@@ -6,23 +6,14 @@ int main() {
     for(int s=0;s<n;s++){
         scanf("%d",&a[s]);
     }
-    int b[n];
-    b[0]=a[0];
-    int x=1;
-    for(int s=1;s<n;s++){
-        int y=0;
-        for(int j=0;j<s-1;j++){
-            if(a[s]!=a[j]){
-                y++;
+    for(int s=0;s<n;s++){
+        int x=0;
+        for(int j=0;j<n;j++){
+            if(a[s]==a[j]){
+                x++;
             }
         }
-        if(y!=s){
-            b[x]=a[s];
-            x++;
-        }
-    }
-    for(int s=0;s<sizeof(b);s++){
-        printf("%d ",b[s]);
+        printf("%d %d\n",a[s],x);
     }
 
     return 0;
