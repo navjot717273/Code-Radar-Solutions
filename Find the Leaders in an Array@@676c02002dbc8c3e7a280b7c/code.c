@@ -6,22 +6,19 @@ int main() {
     for(int s=0;s<n;s++){
         scanf("%d",&a[s]);
     }
-    int q=0;
+    
     for(int s=0;s<n-1;s++){
         int x=0;
         for(int j=s+1;j<n;j++){
-            if(a[s]>=!a[j]){
+            if!(a[s]>=a[j]){
                 x++;
             }
         }
         if(x==0){
-            int b[q]=a[s];
-            q++;
+            printf("%d ",a[s]);
         }
     }
-    int b[q+1]=a[n-1];
-    for(int s=0;s<sizeof(b);s++){
-        printf("%d ",b[s]);
-    }
+    printf("%d",a[n-1]);
+    
     return 0;
 }
