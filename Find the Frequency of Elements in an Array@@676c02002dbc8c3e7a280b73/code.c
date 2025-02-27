@@ -8,13 +8,13 @@ int main() {
     }
     for(int s=0;s<n;s++){
         int x=0;
-        for(int j=s;j<=n;j++){
+        for(int j=s+1;j<=n;j++){
             if(a[s]==a[j]){
                 x++;
             }
         }
         if(x>0){
-        printf("%d %d\n",a[s],x);}
+        printf("%d %d\n",a[s],x+1);}
     }
 
     return 0;
