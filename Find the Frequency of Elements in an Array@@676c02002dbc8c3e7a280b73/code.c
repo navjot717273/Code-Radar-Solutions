@@ -16,7 +16,7 @@ int main() {
                 y++;
             }
         }
-        if(y==s){
+        if(y!=s){
             b[x]=a[s];
             x++;
         }
