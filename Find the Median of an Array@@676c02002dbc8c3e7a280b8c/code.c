@@ -2,19 +2,15 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int a[n];
-    for(int s=0;s<n;s++){
-        scanf("%d",&a[s]);
+    int num[n];
+    for(int i = 0;i<n;i++){
+        scanf("%d",&num[i]);
     }
-    if(n%2==0){
-        int x=(a[n/2]+a[(n/2)+1])/2;
-        printf("%d",x);
+    int sum = 0;
+    for(int i = 0;i<n;i++){
+        sum = sum + num[i];
     }
-    else{
-        int k=0;
-        k=(n+1)/2;
-        printf("%d",a[k]);
-    }
-
+    int median = sum / n;
+    printf("%d",median);
     return 0;
 }
