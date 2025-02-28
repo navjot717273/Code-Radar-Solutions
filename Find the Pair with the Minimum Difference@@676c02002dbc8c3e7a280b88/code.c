@@ -18,6 +18,7 @@ int main(){
     int min=a[0]-a[1];
     int x=a[0];
     int y=a[1];
+    if(n>1){
     for(int s=0;s<n;s++){
         for(int j=0;j<n;j++){
             if(s==j){
@@ -34,5 +35,8 @@ int main(){
         }
     }
     printf("%d %d",y,x);
-    return 0;
+    return 0;}
+    else{
+        printf("-1");
+    }
 }
