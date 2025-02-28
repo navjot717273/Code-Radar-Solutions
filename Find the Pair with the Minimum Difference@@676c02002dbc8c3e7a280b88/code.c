@@ -24,7 +24,7 @@ int main(){
                 continue;
             }
             else{if((a[s]-a[j])>0){
-                if((a[s]-a[j])<min){
+                if((a[s]-a[j])<=min){
                     min=a[s]-a[j];
                     x=a[s];
                     y=a[j];
