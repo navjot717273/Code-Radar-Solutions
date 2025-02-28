@@ -7,24 +7,19 @@ int main() {
         scanf("%d",&a[s]);
     }
     int b[n];
+    int max=0;
     for(int s=0;s<n;s++){
-        b[s]=a[n-1];
-    }
-    b[n-1]=-1;
-    for(int s=0;s<n;s++){
-        for(int k=0;k<n-1;k++){
-            if(a[k]<a[k+1]){
-                int t=a[k];
-                a[k]=a[k+1];
-                a[k+1]=t;
-            }
+        if(a[s]>max){
+            max=a[s];
         }
     }
-    for(int s=1;s<n-2;s++){
-        b[s]=a[0];
+    b[0]=max;
+    b[n-1]=-1;
+    for(int s=1;s<n-1;s++){
+        b[s]=a[n-1];
     }
     for(int s=0;s<n;s++){
-        printf("%d ",a[s]);
+        printf("%d ",b[s]);
     }
     return 0;
 }
