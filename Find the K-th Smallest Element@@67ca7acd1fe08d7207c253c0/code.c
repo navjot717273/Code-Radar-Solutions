@@ -17,7 +17,7 @@ int sortarray(int a[],int n,int b){
 }
 int main(){
     int n;
-    scanf("%d",%n);
+    scanf("%d",&n);
     int a[n];
     for(int s=0;s<n;s++){
         scanf("%d",&a[s]);
