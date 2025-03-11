@@ -8,7 +8,7 @@ int main() {
     }
     int k=1;
     for(int s=0;s<n;s++){
-        for(int j=0;j<n-1;j++){
+        for(int j=0;j<n;j++){
             if(a[s]==k){
             k++;
         }
