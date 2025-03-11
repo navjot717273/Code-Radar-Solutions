@@ -24,6 +24,6 @@ int main(){
     }
     int b;
     scanf("%d",&b);
-    sortarray(a,n,b);
+    sortarray(a[],n,b);
 return 0;
 }
