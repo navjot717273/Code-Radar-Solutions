@@ -15,7 +15,7 @@ int sortarray(int a[],int n,int b){
     }
     kthsmallnumber(a,n,b);
 }
-void main(){
+int main(){
     int n;
     scanf("%d",&n);
     int a[n];
