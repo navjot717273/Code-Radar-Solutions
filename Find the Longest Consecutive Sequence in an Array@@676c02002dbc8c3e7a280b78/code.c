@@ -6,6 +6,21 @@ int main() {
     for(int s=0;s<n;s++){
         scanf("%d",&a[s]);
     }
-    printf("1");
+    for(int s=0;s<n;s++){
+        for(int j=0;j<n-1;j++){
+            if(a[j]>a[j+1]){
+                int t=a[j];
+                a[j]=a[j+1];
+                a[j+1]=t;
+            }
+        }
+    }
+    int k=1;
+    for(int s=0;s<n-1;s++){
+        if(a[s]==(a[s+1]-1)){
+            k++;
+        }
+    }
+    printf("%d",k);
     return 0;
 }
