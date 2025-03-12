@@ -1,7 +1,11 @@
 #include <stdio.h>
 int kthsmallnumber(int a[],int n,int b){
-
+    if(b>n){
+        return -1;
+    }
+    else{
     return(a[b-1]);
+    }
 }
 int kthSmallest(int a[],int n,int b){
     for(int s=0;s<n;s++){
