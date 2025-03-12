@@ -1,7 +1,7 @@
 int printPrimesInRange(int a,int b){
     int z=0;
     for(int s=a;s<=b;s++){
-        if(s==0 || s==1){
+        if(s<=1){
             continue;
         }
         else{
