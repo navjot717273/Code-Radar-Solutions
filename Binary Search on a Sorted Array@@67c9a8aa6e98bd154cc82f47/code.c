@@ -2,10 +2,10 @@
 int binarySearch(int a[],int n,int t){
     int low=0;
     int high=n-1;
-    
     while(low<=high){
        int mid=low+ (high-low)/2;
         if(t==a[mid]){
+            k++;
             return mid;
         }
         if(t>a[mid]){
@@ -16,5 +16,6 @@ int binarySearch(int a[],int n,int t){
         }
     
     }
+    return -1;
 
 }
