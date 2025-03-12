@@ -1,5 +1,5 @@
 #include <stdio.h>
-int binaySearch(int a[],int n,int t){
+int binarySearch(int a[],int n,int t){
     int low=0;
     int high=n-1;
     int mid;
