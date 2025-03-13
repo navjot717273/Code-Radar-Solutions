@@ -12,7 +12,9 @@ int main() {
         }
     }
     if(k!=0){
-        k++;
+        if(a[0]!=' '){
+            k++;
+        }
     }
     printf("%d",k);
 return 0;
