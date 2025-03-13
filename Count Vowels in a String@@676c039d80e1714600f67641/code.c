@@ -10,6 +10,6 @@ int main() {
             k++;
         }
     }
-    prinf("%d",k);
+    printf("%d",k);
 return 0;
 }
