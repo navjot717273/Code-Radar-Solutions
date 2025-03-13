@@ -18,7 +18,7 @@ int main() {
         }
         if(k>max){
             max=k;
-            c=a[s];
+            c[0]=a[s];
         }
     }
     printf("%s",c);
