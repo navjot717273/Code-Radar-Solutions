@@ -22,7 +22,7 @@ int main() {
             c=a[s];
         }
         else if(k==max){
-            if(c<a[s]){
+            if(c>a[s]){
                 c=a[s];
             }
         }
