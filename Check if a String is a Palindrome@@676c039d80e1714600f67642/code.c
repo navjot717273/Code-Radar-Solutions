@@ -11,10 +11,10 @@ int main() {
         k++;
     }
     if(a==b){
-        printf("YES");
+        printf("Yes");
     }
     else{
-        printf("NO");
+        printf("No");
     }
 return 0;
 }
