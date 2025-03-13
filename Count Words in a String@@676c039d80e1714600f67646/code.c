@@ -6,7 +6,8 @@ int main() {
     int n=strlen(a);
     int k=1;
     for(int s=0;s<n;s++){
-        printf("%s\n",a[s]);
+        char f[1]=a[s];
+        printf("%s\n",f);
     }
     
 return 0;
