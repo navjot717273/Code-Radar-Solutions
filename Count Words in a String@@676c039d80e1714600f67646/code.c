@@ -5,20 +5,13 @@ int main() {
     scanf("%[^\n]%*c",&a);
     
     int n=strlen(a);
-    int k=0;
+    int k=1;
     for(int s=1;s<n;s++){
         if(a[s-1]!=' ' && a[s]==' ' && a[s+1]!=' '){
             k++;
         }
     }
-    if(k!=0){
-        if(a[0]!=' '){
-            k=k;
-        }
-        else{
-            k++;
-        }
-    }
+    
     printf("%d",k);
 return 0;
 }
