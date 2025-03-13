@@ -5,10 +5,7 @@ int main() {
     scanf("%s",&a);
     int n=strlen(a);
     int k=1;
-    for(int s=0;s<n;s++){
-        char f[]=a[s];
-        printf("%s\n",f);
-    }
+    printf("%s",a);
     
 return 0;
 }
