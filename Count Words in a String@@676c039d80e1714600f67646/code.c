@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    char a[50];
+    char a[200];
     scanf("%s",&a);
     int n=strlen(a);
     int k=1;
