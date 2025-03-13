@@ -21,6 +21,11 @@ int main() {
             max=k;
             c=a[s];
         }
+        else if(k==max){
+            if(c<a[s]){
+                c=a[s];
+            }
+        }
     }
     printf("%c",c);
 return 0;
