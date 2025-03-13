@@ -5,8 +5,7 @@ int main() {
     scanf("%[^\n]%*c",&a);
     int n=strlen(a);
     int max=0;
-    char c[1];
-    c[0]=a[0];
+    char c;
     for(int s=0;s<n;s++){
         int k=0;
         for(int j=0;j<n;j++){
@@ -19,7 +18,7 @@ int main() {
         }
         if(k>max){
             max=k;
-            c[0]=a[s];
+            c=a[s];
         }
     }
     printf("%s",c);
