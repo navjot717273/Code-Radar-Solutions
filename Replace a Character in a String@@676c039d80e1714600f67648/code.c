@@ -14,6 +14,6 @@ int main() {
             a[s] = c;
         }
     }
-    printf("%[^\n]%*c",a);
+    printf("%s",a);
 return 0;
 }
