@@ -2,15 +2,16 @@
 #include <string.h>
 int main() {
     char a[50];
-    char b[50];
     scanf("%s",&a);
     int n=strlen(a);
     int k=0;
-    for(int s=n-1;s> -1;s--){
-        b[k]=a[s];
-        k++;
+    for(int s=0;s<n;s++){
+        if(a[s]!=a[n-s-1]){
+            k=1;
+            break;
+        }
     }
-    if(a==b){
+    if(k==0){
         printf("Yes");
     }
     else{
