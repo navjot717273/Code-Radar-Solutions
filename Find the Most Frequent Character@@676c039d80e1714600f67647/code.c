@@ -21,6 +21,6 @@ int main() {
             c[0]=a[s];
         }
     }
-    printf("%s",c);
+    printf("%d",max);
 return 0;
 }
