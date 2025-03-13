@@ -5,7 +5,7 @@ int main() {
     char a[200];
     char b;
     char c;
-    scanf("%s",&a);
+    scanf("%[^\n]%*c",&a);
     int n=strlen(a);
     scanf("%c",&b);
     scanf("%c",&c);
