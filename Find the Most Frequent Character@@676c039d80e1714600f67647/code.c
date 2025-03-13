@@ -22,6 +22,6 @@ int main() {
             c=a[s];
         }
     }
-    printf("%s",c);
+    printf("%c",c);
 return 0;
 }
