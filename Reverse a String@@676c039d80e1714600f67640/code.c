@@ -2,7 +2,8 @@
 
 int main() {
     char a[50];
-    gets(a);
-    puta(a);
+    scanf("%s",&a);
+    int n=strlen(a);
+    printf("%d",n);
     return 0;
 }
