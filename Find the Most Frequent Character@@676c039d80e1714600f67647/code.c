@@ -9,10 +9,10 @@ int main() {
     for(int s=0;s<n;s++){
         int k=0;
         for(int j=0;j<n;j++){
-            if(s==j){
+            if(a[s]==' '){
                 continue;
             }
-            else if(a[s]==a[j] && a[s]!=' '){
+            else if(a[s]==a[j]){
                 k++;
             }
         }
