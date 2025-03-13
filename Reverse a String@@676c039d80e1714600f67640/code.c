@@ -2,12 +2,13 @@
 #include <string.h>
 int main() {
     char a[50];
-    char b[]="";
     scanf("%s",&a);
     int n=strlen(a);
-    for(int s=n-1;s> -1;s--){
-        b=b+a[s];
+    for(int s=0;s<n/2;s++){
+        int t=a[s];
+        a[s]=a[n-s-1];
+        a[n-s-1]=t;
     }
-    printf("%s",b);
+    printf("%s",a);
     return 0;
 }
