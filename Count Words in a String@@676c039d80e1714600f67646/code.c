@@ -4,9 +4,9 @@ int main() {
     char a[200];
     scanf("%s",&a);
     int n=strlen(a);
-    int k=1;
+    int k=0;
     for(int s=0;s<n;s++){
-        if(a[s]==' ' && a[s+1]!=' '){
+        if(a[s]=='a'){
             k++;
         }
     }
