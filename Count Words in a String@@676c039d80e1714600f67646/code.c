@@ -11,7 +11,9 @@ int main() {
             k++;
         }
     }
-    
+    if(a[0]==''){
+        k=0;
+    }
     printf("%d",k);
 return 0;
 }
