@@ -12,7 +12,10 @@ int main() {
         }
     }
     if(k!=0){
-        if(a[0]!=' '){
+        if(a[0]=' '){
+            continue;
+        }
+        else{
             k++;
         }
     }
