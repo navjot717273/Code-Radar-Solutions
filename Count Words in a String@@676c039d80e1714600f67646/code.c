@@ -3,7 +3,7 @@
 int main() {
     char a[200];
     scanf("%[^\n]%*c",&a);
-    a=a.trim();
+    a.trim();
     int n=strlen(a);
     int k=1;
     for(int s=0;s<n;s++){
