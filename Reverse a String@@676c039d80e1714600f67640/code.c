@@ -3,8 +3,6 @@
 int main() {
     char a[50];
     scanf("%s",&a);
-    int n;
-    n=strlen(a);
-    printf("%d",n);
+    printf("%c",c);
     return 0;
 }
