@@ -14,6 +14,6 @@ int main() {
             a[s] = c;
         }
     }
-    printf("%s",a);
+    printf("%s %s",b,c);
 return 0;
 }
