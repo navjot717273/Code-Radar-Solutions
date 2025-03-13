@@ -5,7 +5,11 @@ int main() {
     scanf("%s",&a);
     int n=strlen(a);
     int k=1;
-    printf("%s",a);
-    
+    for(int s=0;s<n;s++){
+        if(a[s]==' '){
+            k++;
+        }
+    }
+    printf("%d",k);
 return 0;
 }
