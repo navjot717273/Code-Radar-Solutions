@@ -11,8 +11,10 @@ int main() {
             k++;
         }
     }
-    if(a[0]=='\0'){
-        k=0;
+    if(k==1){
+        if(a[0]==' '){
+            k=0;
+        }
     }
     printf("%d",k);
 return 0;
