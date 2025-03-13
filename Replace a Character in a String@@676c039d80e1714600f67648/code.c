@@ -8,7 +8,7 @@ int main() {
     scanf("%[^\n]%*c",&a);
     int n=strlen(a);
     scanf("%c",&b);
-    scanf("%c",&d);
+    scanf("%[^\n]%*c",&d);
     for(int s=0;s<n;s++){
         if(a[s]==b){
             a[s] = d;
