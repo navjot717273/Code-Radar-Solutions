@@ -11,7 +11,7 @@ int main() {
     scanf("%c",&d);
     for(int s=0;s<n;s++){
         if(a[s]==b){
-            a[s] = c;
+            a[s] = d;
         }
     }
     printf("%c",d);
