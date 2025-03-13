@@ -6,7 +6,7 @@ int main() {
     int n=strlen(a);
     int k=1;
     for(int s=0;s<n;s++){
-        if(a[s]==' '){
+        if(a[s]==' ' && a[s+1]!=' '){
             k++;
         }
     }
