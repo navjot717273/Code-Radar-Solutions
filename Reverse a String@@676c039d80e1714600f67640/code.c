@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char a[50];
-    scanf("%s",&a);
-
-    printf("%s",strrev(a));
+    char a[];
+    gets(a);
+    puta(a);
     return 0;
 }
