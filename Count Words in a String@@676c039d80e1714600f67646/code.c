@@ -4,12 +4,12 @@ int main() {
     char a[200];
     scanf("%s",&a);
     int n=strlen(a);
-    int k=1;
+    int k=0;
     for(int s=0;s<n;s++){
         if(a[s]==' '){
             k++;
         }
     }
-    printf("%d",k);
+    printf("%d",k+1);
 return 0;
 }
