@@ -5,6 +5,16 @@ int main() {
     char b[50];
     scanf("%s",&a);
     int n=strlen(a);
-
+    int k=0;
+    for(int s=n-1;s> -1;s--){
+        b[k]=a[s];
+        k++;
+    }
+    if(a==b){
+        printf("YES");
+    }
+    else{
+        printf("NO");
+    }
 return 0;
 }
