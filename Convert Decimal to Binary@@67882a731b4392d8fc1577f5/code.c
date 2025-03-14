@@ -18,7 +18,7 @@ int main() {
     }
     char c[k];
     int m=0;
-    for(int s=n-1;s> -1;s--){
+    for(int s=k-1;s> -1;s--){
         c[m]=b[s];
         m++;
     }
