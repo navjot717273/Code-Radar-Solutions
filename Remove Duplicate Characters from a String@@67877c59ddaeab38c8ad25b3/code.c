@@ -8,20 +8,19 @@ int main() {
     int n=strlen(a);
     char b[n];
     b[0]=a[0];
-    int k=1;
-    int x=0;
+    int m=1;
     for(int s=1;s<n;s++){
+        int k=0;
         for(int j=0;j<s;j++){
             if(a[s]==a[j]){
-                x=1;
+                k++;
             }
         }
-        if(x!=1){
-            b[k]=a[s];
-            k++;
+        if(k==0){
+            b[m]=a[s];
+            m++;
         }
     }
-    b[k+1]=a[n-1];
     printf("%s",b);
 
 return 0;
