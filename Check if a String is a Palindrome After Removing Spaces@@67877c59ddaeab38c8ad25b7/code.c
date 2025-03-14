@@ -12,7 +12,7 @@ int main() {
             continue;
         }
         else{
-            b[k]=tolower(a[s]);
+            b[k]=a[s];
             k++;
         }
     }
