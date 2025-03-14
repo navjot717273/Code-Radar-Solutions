@@ -9,8 +9,11 @@ int main() {
     int k=0;
     for(int s=0;s<n;s++){
         k=0;
-        for(int j=s+1;j<n;j++){
-            if(a[s]==a[j]){
+        for(int j=0;j<n;j++){
+            if(s==j){
+                continue;
+            }
+            else if(a[s]==a[j]){
                 k=1;
             }
         }
