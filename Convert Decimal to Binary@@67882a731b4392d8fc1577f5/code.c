@@ -2,13 +2,16 @@
 int main() {
     int a;
     char b[50];
+    int k=0;
     scanf("%d",&a);
     while(a>0){
         if(a%2==0){
-            b=b+'0';
+            b[k]='0';
+            k++
         }
         else{
-            b=b+'1';
+            b[k]='1';
+            k++
         }
 
         a=a/2;
