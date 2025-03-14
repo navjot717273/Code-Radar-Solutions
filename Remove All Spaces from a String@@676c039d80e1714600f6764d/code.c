@@ -7,7 +7,7 @@ int main() {
     int n=strlen(a);
     char b[n];
     int k=0;
-    for(int s=0;s<n;s++){
+    for(int s=1;s<n;s++){
         if(a[s]!=' '){
             b[k]=a[s];
             k++;
