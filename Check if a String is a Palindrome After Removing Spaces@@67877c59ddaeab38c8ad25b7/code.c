@@ -14,6 +14,8 @@ int main() {
         }
         else{ if(isupper(a[s])){
             a[s]=tolower(a[s]);
+            b[k]=a[s];
+            k++;
         }
         else{
             b[k]=a[s];
