@@ -13,6 +13,6 @@ int main() {
             k++;
         }
     }
-    printf("%s",b);
+    printf("%c",b);
     return 0;
 }
