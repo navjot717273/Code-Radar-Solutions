@@ -8,7 +8,7 @@ void main() {
     for(int i=0;n>0;i++) {
         a=n%2;
         n=n/2;
-        for(int s=0;s<i-1;s++){
+        for(int s=0;s<i;s++){
             m=m*10;
         }
         b=b+(m*a);
