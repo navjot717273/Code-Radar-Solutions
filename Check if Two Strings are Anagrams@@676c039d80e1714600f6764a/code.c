@@ -13,6 +13,7 @@ int main() {
         for(int j=0;j<n;j++){
             if(a[s]==b[j]){
                 k++;
+                j=n;
             }
         }
     }
