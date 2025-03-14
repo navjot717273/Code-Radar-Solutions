@@ -8,7 +8,7 @@ int main() {
     char b[n];
     int k=0;
     for(int s=0;s<n;s++){
-        if(a[s]='a' || a[s]='e' || a[s]='i' || a[s]='o' || a[s]='u'){
+        if(a[s]=='a' || a[s]=='e' || a[s]=='i' || a[s]=='o' || a[s]=='u'){
             b[k]=a[s];
             k++;
         }
