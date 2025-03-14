@@ -12,6 +12,7 @@ void main() {
             m=m*10;
         }
         b=b+(m*a);
+        m=1;
     }
     printf("%d",b);
 }
