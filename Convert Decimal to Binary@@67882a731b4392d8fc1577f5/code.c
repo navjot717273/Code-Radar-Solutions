@@ -5,7 +5,7 @@ void main() {
     int n;
     printf("Enter a Decimal Number\n");
     scanf("%d",&n);
-    while(n>0) {
+    for(int i=0;n>0;i++) {
         a=n%2;
         n=n/2;
         b=b+(pow(10,i)*a);
