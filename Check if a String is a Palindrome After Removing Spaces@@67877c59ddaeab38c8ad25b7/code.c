@@ -11,9 +11,12 @@ int main() {
         if(a[s]==' '){
             continue;
         }
+        else{ if(isupper(a[s])){
+            a[s]=tolower(a[s]);
+        }
         else{
             b[k]=a[s];
-            k++;
+            k++;}
         }
     }
     int m=k-1;
