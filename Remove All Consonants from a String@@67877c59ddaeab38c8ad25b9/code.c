@@ -12,6 +12,10 @@ int main() {
             b[k]=a[s];
             k++;
         }
+        else if(a[s]==' '){
+            b[k]=' ';
+            k++;
+        }
     }
 printf("%s",b);
 return 0;
