@@ -4,7 +4,7 @@
 int main() {
     char a[200];
     scanf("%[^\n]%*c",&a);
-    int m=strlen(a);
+    int n=strlen(a);
     int start=0;
     for(int s=0;s<=n;s++){
         if(a[s]==' ' || a[s]=='\0'){
