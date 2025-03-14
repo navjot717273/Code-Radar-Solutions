@@ -11,11 +11,15 @@ int main() {
         for(int j=s+1;j<n;j++){
             if(a[s]==a[j]){
                 k=1;
-                printf("%c",a[s]);
             }
         }
+        if(k==0){
+            printf("%c",a[s]);
+            k=0;
+            break;
+        }
     }
-    if(k==0){
+    if(k==1){
         printf("-");
     }
 
