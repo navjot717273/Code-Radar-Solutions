@@ -1,32 +1,14 @@
-#include <stdio.h>
-int main() {
-    long int a;
-    char b[50];
-    int k=0;
-    scanf("%ld",&a);
-    if(a==0){
-        printf("0");
+#include<stdio.h>
+#include<math.h>
+void main() {
+    int a,b=0;
+    int n;
+    printf("Enter a Decimal Number\n");
+    scanf("%d",&n);
+    while(n>0) {
+        a=n%2;
+        n=n/2;
+        b=b+(pow(10,i)*a);
     }
-    else{
-    while(a>0){
-        if(a%2==0){
-            b[k]='0';
-            k++;
-        }
-        else{
-            b[k]='1';
-            k++;
-        }
-
-        a=a/2;
-    }
-    char c[k];
-    int m=0;
-    for(int s=k-1;s> -1;s--){
-        c[m]=b[s];
-        m++;
-    }
-    printf("%s",c);}
-    return 0;
-
+    printf("%d",b);
 }
