@@ -1,19 +1,20 @@
-#include<stdio.h>
-#include <math.h>
-void main() {
-    int a;
-    long int b=0;
-    int n;
-    scanf("%d",&n);
-    int m=1;
-    for(int i=0;n>0;i++) {
-        a=n%2;
-        n=n/2;
-        for(int s=0;s<i;s++){
-            m=m*10;
-        }
-        b=b+(m*a);
-        m=1;
+#include <stdio.h>
+
+void decimalToBinary(int n) {
+    int size = sizeof(n) * 8;
+    for (int i = size - 1; i >= 0; i--) {
+    
+        int bit = (n >> i) & 1;
+        printf("%d", bit);
     }
-    printf("%ld",b);
+    printf("\n");
+}
+
+int main() {
+    int num;
+
+    scanf("%d", &num);
+    decimalToBinary(num);
+
+    return 0;
 }
