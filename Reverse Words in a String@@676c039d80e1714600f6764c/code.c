@@ -5,8 +5,7 @@ int main() {
     char a[200];
     scanf("%[^\n]%*c",&a);
     int m=strlen(a);
-    a[m]=' ';
-    a[m+1]='1';
+    a=' '+a;
     printf("%s",a);
 return 0;
 }
