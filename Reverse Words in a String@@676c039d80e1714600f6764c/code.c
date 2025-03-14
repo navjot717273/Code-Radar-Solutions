@@ -10,8 +10,8 @@ int main() {
         if(a[s]==' ' || a[s]=='\0'){
             int  end=s-1;
             while(start<end){
-                int t=a[j];
-                a[j]=a[end];
+                int t=a[start];
+                a[start]=a[end];
                 a[end]=t;
                 start++;
                 end--;
