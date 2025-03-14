@@ -18,6 +18,6 @@ int main() {
             start=s+1;
         }
     }
-    printf("%s",);
+    printf("%s",a);
 return 0;
 }
