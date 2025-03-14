@@ -21,6 +21,7 @@ int main() {
             k++;
         }
     }
+    b[k+1]=a[n-1];
     printf("%s",b);
 
 return 0;
