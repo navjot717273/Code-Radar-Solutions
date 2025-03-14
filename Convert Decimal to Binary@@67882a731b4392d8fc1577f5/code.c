@@ -5,10 +5,14 @@ void main() {
     int n;
     printf("Enter a Decimal Number\n");
     scanf("%d",&n);
+    int m=1;
     for(int i=0;n>0;i++) {
         a=n%2;
         n=n/2;
-        b=b+(pow(10,i)*a);
+        for(int s=0;s<i;s++){
+            m=m*10;
+        }
+        b=b+(m*a);
     }
     printf("%d",b);
 }
