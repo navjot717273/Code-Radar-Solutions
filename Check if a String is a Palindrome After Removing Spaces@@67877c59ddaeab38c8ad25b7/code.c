@@ -16,13 +16,14 @@ int main() {
             k++;
         }
     }
-    int m=0;
+    int m=k;
     int x=0;
-    for(int s=k-1;s>k/2;s--){
+    for(int s=0;s<k;s++){
         if(b[s]!=b[m]){
             x=1;
             break;
         }
+        m--;
     }
     if(x==1){
         printf("No");
