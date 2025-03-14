@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    int n;
-    scanf("%d",&n);
-    int a[n];
-    for(int s=0;s<n;s++){
-        scanf("%d",&a[s]);
-    }
+    char a[200];
+    scanf("%[^\n]%*c",&a);
+    int n=strlen(a);
     for(int s=0;s<n;s++){
         int x=0;
         int k=0;
@@ -21,7 +18,7 @@ int main() {
             }
         }
         if(k==0){
-        printf("%d %d\n",a[s],x);}
+        printf("%c: %d\n",a[s],x);}
     }
 
     return 0;
