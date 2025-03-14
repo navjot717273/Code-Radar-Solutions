@@ -16,7 +16,7 @@ int main() {
             k++;
         }
     }
-    int m=k;
+    int m=k-1;
     int x=0;
     for(int s=0;s<k;s++){
         if(b[s]!=b[m]){
