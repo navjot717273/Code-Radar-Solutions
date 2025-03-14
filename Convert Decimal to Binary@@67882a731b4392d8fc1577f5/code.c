@@ -7,11 +7,11 @@ int main() {
     while(a>0){
         if(a%2==0){
             b[k]='0';
-            k++
+            k++;
         }
         else{
             b[k]='1';
-            k++
+            k++;
         }
 
         a=a/2;
