@@ -3,7 +3,7 @@
 
 int main() {
     char a[200];
-    char b;
+    char b[200];
     scanf("%[^\n]%*c",&a);
     scanf("%[^\n]%*c",&b);
     int m=strlen(a);
