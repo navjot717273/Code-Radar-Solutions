@@ -16,7 +16,13 @@ int main() {
 
         a=a/2;
     }
-    printf("%s",b);
+    char c[k];
+    int m=0;
+    for(int s=n-1;s> -1;s--){
+        c[m]=b[s];
+        m++;
+    }
+    printf("%s",c);
     return 0;
 
 }
