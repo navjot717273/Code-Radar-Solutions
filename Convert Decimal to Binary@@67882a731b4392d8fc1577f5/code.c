@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include <math.h>
 void main() {
-    int a,b=0;
+    int a;
+    long int b=0;
     int n;
     scanf("%d",&n);
     int m=1;
@@ -14,5 +15,5 @@ void main() {
         b=b+(m*a);
         m=1;
     }
-    printf("%d",b);
+    printf("%ld",b);
 }
