@@ -3,7 +3,6 @@
 void main() {
     int a,b=0;
     int n;
-    printf("Enter a Decimal Number\n");
     scanf("%d",&n);
     int m=1;
     for(int i=0;n>0;i++) {
