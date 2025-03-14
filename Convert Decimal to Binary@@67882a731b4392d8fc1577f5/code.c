@@ -1,9 +1,13 @@
 #include <stdio.h>
 int main() {
-    int a;
+    long int a;
     char b[50];
     int k=0;
-    scanf("%d",&a);
+    scanf("%ld",&a);
+    if(a==0){
+        printf("0");
+    }
+    else{
     while(a>0){
         if(a%2==0){
             b[k]='0';
@@ -22,7 +26,7 @@ int main() {
         c[m]=b[s];
         m++;
     }
-    printf("%s",c);
+    printf("%s",c);}
     return 0;
 
 }
