@@ -1,4 +1,4 @@
-char bubbleSort(char arr[],int n){
+int bubbleSort(char arr[],int n){
     for(int s=0;s<n-1;s++){
         for(int j=0;s<n-s-1;j++){
             if(arr[j]>arr[j+1]){
@@ -8,7 +8,7 @@ char bubbleSort(char arr[],int n){
             }
         }
     }
-    return(arr[]);
+    
 }
 int printArray(char arr[],int n){
     for(int s=0;s<n;s++){
