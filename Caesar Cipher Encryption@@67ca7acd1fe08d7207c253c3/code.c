@@ -1,5 +1,7 @@
+#include <stdio.h>
+#include <string.h>
 void caesarCipher(char message[],int shift,char encrypted[]){
-    int n=strlen(message);
+    int n= strlen(message);
     int k=0;
     for(int s=0;s<n;s++){
         if(message[s]=='z'){
