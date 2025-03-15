@@ -1,5 +1,5 @@
 void selectionSort(char arr[],int n){
-    int temp=0;
+    char temp[100];
     for(int s=0;s<n-1;s++){
         int min=s;
         for(int j=s+1;j<n;j++){
