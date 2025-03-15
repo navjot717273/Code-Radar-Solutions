@@ -1,8 +1,8 @@
-void selectionSort(char arr[][],int n){
+void selectionSort(char arr[],int n){
     for(int s=0;s<n-1;s++){
         int min=s;
         for(int j=s+1;j<n;j++){
-            if(arr[j][0]<arr[min][0]){
+            if(arr[j]<arr[min]){
                 min=j;
             }
         }
@@ -11,7 +11,7 @@ void selectionSort(char arr[][],int n){
         arr[min]=t;
     }
 }
-void printArray(char arr[][],int n){
+void printArray(char arr[],int n){
     for(int s=0;s<n;s++){
         printf("%s\n",arr[s]);
     }
