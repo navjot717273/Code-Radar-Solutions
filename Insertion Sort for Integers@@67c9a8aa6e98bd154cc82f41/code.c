@@ -8,7 +8,7 @@ void insertionSort(int arr[],int n){
             j = j - 1;
         }
 
-        a[j + 1] = key;
+        arr[j + 1] = key;
     }
 }
 void printf(int arr[],int n){
