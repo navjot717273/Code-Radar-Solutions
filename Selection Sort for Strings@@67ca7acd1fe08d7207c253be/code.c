@@ -13,7 +13,7 @@ void selectionSort(char arr[],int n){
             strcpy(arr[min], temp);
         }
     
-}
+}}
 void printArray(char arr[],int n){
     for(int s=0;s<n;s++){
         printf("%s\n",arr[s]);
