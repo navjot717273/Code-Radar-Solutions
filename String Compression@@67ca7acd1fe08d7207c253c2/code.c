@@ -4,7 +4,7 @@ void compressString(char str[],char compressed[]){
         int k=0;
         int t=0;
         for(int j=0;str[j]!='\0';j++){
-            if(a==j){
+            if(s==j){
                 continue;
             }
             else if(str[s]==str[j]){
