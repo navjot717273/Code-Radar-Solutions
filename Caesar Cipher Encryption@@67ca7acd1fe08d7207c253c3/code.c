@@ -1,9 +1,9 @@
 
 
 void caesarCipher(char message[],int shift,char encrypted[]){
-    int n= strlen(message);
+    
     int k=0;
-    for(int s=0;s<n;s++){
+    for(int s=0;s<'\0';s++){
         if(message[s]=='z'){
             encrypted[k]='a';
             k++;
