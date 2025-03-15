@@ -3,7 +3,7 @@
 void caesarCipher(char message[],int shift,char encrypted[]){
     
     int k=0;
-    for(int s=0;a[s]!='\0';s++){
+    for(int s=0;message[s]!='\0';s++){
         if(message[s]=='z'){
             encrypted[k]='a';
             k++;
