@@ -1,4 +1,4 @@
-void caesarCipher(char message[],int shift,char encrypted[]){
+int caesarCipher(char message[],int shift,char encrypted[]){
     
     int k=0;
     for(int s=0;message[s]!='\0';s++){
@@ -19,5 +19,5 @@ void caesarCipher(char message[],int shift,char encrypted[]){
             k++;
         }
     }
-    printf("%s",encrypted);
+
 }
