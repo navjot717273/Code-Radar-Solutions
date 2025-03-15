@@ -14,6 +14,6 @@ void insertionSort(char arr[],int n){
 }
 void printArray(char arr[],int n){
     for(int s=0;s<n;s++){
-        printf("%d ",arr[s]);
+        printf("%c ",arr[s]);
     }
 }
