@@ -8,6 +8,7 @@ char bubbleSort(char arr[],int n){
             }
         }
     }
+    return(arr[]);
 }
 int printArray(char arr[],int n){
     for(int s=0;s<n;s++){
