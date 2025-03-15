@@ -11,7 +11,7 @@ void insertionSort(int arr[],int n){
         arr[j + 1] = key;
     }
 }
-void printf(int arr[],int n){
+void printArray(int arr[],int n){
     for(int s=0;s<n;s++){
         printf("%d ",arr[s]);
     }
