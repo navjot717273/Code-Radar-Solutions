@@ -8,7 +8,7 @@ int main() {
     char b[100];
     scanf("%s",&b);
     int n=strlen(a);
-    int x=0;
+    int x=1;
     int y=0;
     for(int s=0;s<n;s++){
         if(a[s]==b[0]){
