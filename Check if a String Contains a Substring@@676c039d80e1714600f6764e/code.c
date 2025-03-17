@@ -28,7 +28,6 @@ int main() {
     if(y==0){
         printf("No");
     }
-    printf("%d",strlen(b));
 
 return 0;
 }
