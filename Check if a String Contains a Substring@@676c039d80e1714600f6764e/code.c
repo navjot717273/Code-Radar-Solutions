@@ -11,6 +11,7 @@ int main() {
     int x=1;
     int y=0;
     for(int s=0;s<n;s++){
+        x=1;
         if(a[s]==b[0]){
             for(int k=1;k<strlen(b);k++){
                 if(a[s+k]==b[k]){
@@ -27,6 +28,7 @@ int main() {
     if(y==0){
         printf("No");
     }
+    printf("%d",strlen(b));
 
 return 0;
 }
