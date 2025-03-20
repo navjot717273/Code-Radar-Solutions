@@ -22,4 +22,4 @@ int main() {
         printf("Roll Number: %d, Name: %s, Marks: %.2f",students[i].roll,students[i].name,students[i].marks);
         printf("\n");}
 }
-}
+}}
