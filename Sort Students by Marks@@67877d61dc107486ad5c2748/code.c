@@ -13,10 +13,10 @@ int main() {
     }
     for(int k=0;k<n;k++){
     for(int s=0;s<n-1;s++){
-        if(students[s].roll<students[s+1].roll){
-            int t=students[s].roll;
-            students[s].roll=students[s+1].roll;
-            students[s+1].roll=t;
+        if(students[s].marks<students[s+1].marks){
+            int t=students[s].marks;
+            students[s].marks=students[s+1].marks;
+            students[s+1].marks=t;
         }
     }}
     for(int i =0;i<n;i++){
