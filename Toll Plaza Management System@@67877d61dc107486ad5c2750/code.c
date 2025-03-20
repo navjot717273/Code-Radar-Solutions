@@ -1,6 +1,6 @@
 #include <stdio.h>
 struct Student{
-    char [100]roll;
+    char roll[100];
     char name[99];
     float marks;    
 };
