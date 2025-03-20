@@ -4,8 +4,7 @@ struct day{
     int number;
 };
 int main(){
-    int n;
-    scanf("%d",&n);
+    int n=7;
     struct day days[n];
     int k=0;
     for(int s=0;s<n;s++){
