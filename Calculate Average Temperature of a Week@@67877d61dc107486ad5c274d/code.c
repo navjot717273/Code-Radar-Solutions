@@ -11,5 +11,5 @@ int main(){
         scanf("%s %d",&days[s].name,&days[s].number);
         k=k+days[s].number;
     }
-    printf("Average Temperature: %.2f",k/7);
+    printf("Average Temperature: %d",k);
 }
