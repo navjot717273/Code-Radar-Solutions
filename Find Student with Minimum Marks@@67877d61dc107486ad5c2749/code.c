@@ -20,6 +20,6 @@ int main() {
         }
     }
    
-    printf("Students with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",students[x].roll,students[x].name,students[x].marks);
+    printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",students[x].roll,students[x].name,students[x].marks);
        
 }
