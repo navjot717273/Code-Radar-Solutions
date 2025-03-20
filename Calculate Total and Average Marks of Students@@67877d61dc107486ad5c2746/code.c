@@ -13,6 +13,6 @@ int main() {
         scanf("%d %s %f",&students[i].roll,&students[i].name,&students[i].marks);
         m=m+students[i].marks;
     }
-    printf("Total Marks: %2f\nAverage Marks: %2f",m,m/n);
+    printf("Total Marks: %.2f\nAverage Marks: %.2f",m,m/n);
     
 }
