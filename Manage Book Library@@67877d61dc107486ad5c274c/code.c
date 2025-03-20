@@ -16,7 +16,7 @@ int main(){
     printf("Books above price %.2f:\n",k);
     for(int s=0;s<n;s++){
         if(books[s].price>k){
-            printf("Title: %s, Author: %s, Price: %.2f",books[s].title,books[s].author,books[s].price);
+            printf("Title: %s, Author: %s, Price: %.2f\n",books[s].title,books[s].author,books[s].price);
         }
     }
 }
