@@ -15,7 +15,7 @@ int main(){
     scanf("%d",&k);
     for(int s=0;s<n;s++){
         if(books[s].price>k){
-            printf("Books above price %d: Title: %s, Author: %s, Price: %d",k,books[s].title,books[s].author,books[s].price);
+            printf("Books above price %d:\n Title: %s, Author: %s, Price: %d",k,books[s].title,books[s].author,books[s].price);
         }
     }
 }
