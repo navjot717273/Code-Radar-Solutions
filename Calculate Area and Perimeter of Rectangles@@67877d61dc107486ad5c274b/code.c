@@ -11,7 +11,9 @@ int main() {
         scanf("%d %d",&students[i].a,&students[i].p);
     }
     for(int i =0;i<n;i++){
-        printf("Rectangle %d: Area: %d, Perimeter: %d",i+1,students[i].a*students[i].p,2(students[i].a+students[i].p));
+        int aera=students[i].a*students[i].p;
+        int peri=2(students[i].a+students[i].p);
+        printf("Rectangle %d: Area: %d, Perimeter: %d",i+1,aera,peri);
         printf("\n");
 }
 }
