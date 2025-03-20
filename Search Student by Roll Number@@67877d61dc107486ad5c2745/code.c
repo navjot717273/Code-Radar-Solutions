@@ -13,7 +13,9 @@ int main() {
     }
     int k;
     scanf("%d",&k);
-    printf("Roll Number: %d, Name: %s, Marks: %.2f",students[k-1].roll,students[k-1].name,students[k-1].marks);
-       
-
+    for(int i =0;i<n;i++){
+        if(students[i].roll==k){
+        printf("Roll Number: %d, Name: %s, Marks: %.2f",students[i].roll,students[i].name,students[i].marks);
+        printf("\n");}
+}
 }
