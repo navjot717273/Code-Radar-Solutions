@@ -6,7 +6,7 @@ int main() {
     scanf("%[^\n]%*c",&a);
     int n=strlen(a);
     int k=0;
-    if(a[0]=='\0'){
+    if(a[0]==''){
         printf("Yes");
     }
     else{
