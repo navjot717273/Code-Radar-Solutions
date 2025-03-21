@@ -7,7 +7,7 @@ int main() {
     int n=strlen(a);
     int k=1;
     for(int s=0;s<n;s++){
-        if(a[s]!>1){
+        if(!(a[s]>1)){
             k=0;
             break;
         }
