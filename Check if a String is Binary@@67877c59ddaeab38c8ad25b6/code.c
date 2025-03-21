@@ -4,8 +4,7 @@
 int main() {
     char a[200];
     scanf("%[^\n]%*c",&a);
-    int n=0;
-    n=strlen(a);
+    int n=strlen(a);
     int k=0;
     if(n==0){
         printf("Yes");
