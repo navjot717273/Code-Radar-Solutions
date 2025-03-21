@@ -20,6 +20,5 @@ int main() {
         printf("Yes");
     }
     
-    printf("%d",n);
 return 0;
 }
