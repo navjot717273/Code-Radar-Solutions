@@ -7,7 +7,7 @@ int main() {
     int n=strlen(a);
     int k=0;
     if(a[0]=='\0'){
-        printf("Yes")
+        printf("Yes");
     }
     else{
     for(int s=0;s<n;s++){
