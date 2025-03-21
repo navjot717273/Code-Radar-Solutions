@@ -6,6 +6,10 @@ int main() {
     scanf("%[^\n]%*c",&a);
     int n=strlen(a);
     int k=0;
+    if(a[0]=='\0'){
+        printf("Yes")
+    }
+    else{
     for(int s=0;s<n;s++){
         if(a[s]=='0' || a[s]=='1'){
             k++;
@@ -17,6 +21,6 @@ int main() {
     else{
         printf("No");
     }
-
+    }
 return 0;
 }
