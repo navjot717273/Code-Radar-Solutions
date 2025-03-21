@@ -24,6 +24,7 @@ int main() {
             k++;
         }
     }
+    char maxc[n];
     int l=0;
     for(int s=start;s<end;s++){
         maxc[l]=a[s];
