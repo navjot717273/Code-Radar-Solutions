@@ -4,6 +4,7 @@ struct Student{
     char name[99];
     float marks;    
 };
+st
 int main() {
     int n;
     scanf("%d",&n);
@@ -14,9 +15,9 @@ int main() {
     for(int k=0;k<n;k++){
     for(int s=0;s<n-1;s++){
         if(students[s].marks<students[s+1].marks){
-            int t=students[s].marks;
-            students[s].marks=students[s+1].marks;
-            students[s+1].marks=t;
+            struct Student t=students[s];
+            students[s]=students[s+1];
+            students[s+1]=t;
         }
     }}
     for(int i =0;i<n;i++){
