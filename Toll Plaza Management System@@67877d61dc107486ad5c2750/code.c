@@ -11,13 +11,13 @@ int main() {
     float car,truck,bike=0;
     for(int i =0;i<n;i++){
         scanf("%s %s %f",&students[i].roll,&students[i].name,&students[i].marks);
-        if(students[i].name=="Car"){
+        if(students[i].name=='C'){
             car=car+students[i].marks;
         }
-        else if(students[i].name=="Truck"){
+        else if(students[i].name[0]=='T'){
             truck=truck+students[i].marks;
         }
-        else if(students[i].name=="Bike"){
+        else if(students[i].name[0]=='B'){
             bike=bike+students[i].marks;
         }
     }
