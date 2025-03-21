@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&n);
     struct Student students[n];
     float car,truck,bike=0;
-    int c,t,b=0;
+    int c,y,b=0;
     for(int i =0;i<n;i++){
         scanf("%s %s %f",&students[i].roll,&students[i].name,&students[i].marks);
         if(students[i].name[0]=='B'){
@@ -18,12 +18,12 @@ int main() {
         }
         else if(students[i].name[0]=='S'){
             truck=truck+students[i].marks;
-            t++;
+            y++;
         }
         else if(students[i].name[0]=='P'){
             bike=bike+students[i].marks;
             b++;
         }
     }
-    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",c,car,t,truck,b,bike);
+    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",c,car,y,truck,b,bike);
 }
