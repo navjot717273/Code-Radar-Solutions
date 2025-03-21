@@ -4,7 +4,6 @@ struct Student{
     char name[99];
     float marks;    
 };
-st
 int main() {
     int n;
     scanf("%d",&n);
@@ -20,7 +19,7 @@ int main() {
             students[s+1]=t;
         }
     }}
-    for(int i =0;i<n;i++){
+    for(int i=0;i<n;i++){
         printf("Roll Number: %d, Name: %s, Marks: %.2f",students[i].roll,students[i].name,students[i].marks);
         printf("\n");
 }
