@@ -9,7 +9,6 @@ int main() {
     for(int s=0;s<n;s++){
         if(a[s]=='0' || a[s]=='1'){
             k++;
-            break;
         }
     }
     if(k==n){
