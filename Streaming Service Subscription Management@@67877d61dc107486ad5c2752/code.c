@@ -9,7 +9,9 @@ int main() {
     scanf("%d",&n);
     struct Student students[n];
     float car,truck,bike=0;
-    int c,y,b=0;
+    int c=0;
+    int b=0;
+    int y=0;
     for(int i =0;i<n;i++){
         scanf("%s %s %f",&students[i].roll,&students[i].name,&students[i].marks);
         if(students[i].name[0]=='B'){
