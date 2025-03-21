@@ -8,20 +8,28 @@ int main() {
     char b[n];
     int k=0;
     int max=0;
+    int start=0;
+    int end=0;
     for(int s=0;s<=n;s++){
         if(a[s]==' ' || a[s]=='\0'){
             if(k>max){
                 max=k;
+                end=s;
+                start=end-k;
             }
             
             k=0;
         }
         else{
-            b[k]=a[s];
             k++;
         }
     }
-    printf("%d",max);
+    int l=0;
+    for(int s=start;s<end;s++){
+        maxc[l]=a[s];
+        l++;
+    }
+    printf("%s",maxc);
 
 return 0;
 }
