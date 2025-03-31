@@ -5,7 +5,7 @@ int factorialRange(int s,int e){
         if(m==0){
             printf("1");
         }
-        else if{
+        if{
             printf("1");
         }
         else{
