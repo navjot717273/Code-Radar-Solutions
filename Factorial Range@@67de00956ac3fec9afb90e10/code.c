@@ -1,4 +1,8 @@
 int factorialRange(int s,int e){
+    if(s<0 || e<0){
+        printf("Invalid range");
+    }
+    else{
     int sum=1;
     for(int m=s;m<=e;m++){
         sum=1;
@@ -18,4 +22,5 @@ int factorialRange(int s,int e){
             printf("\n");
         }
     }
+}
 }
