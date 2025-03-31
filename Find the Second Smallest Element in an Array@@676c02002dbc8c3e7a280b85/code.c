@@ -6,17 +6,7 @@ int main() {
     for(int s=0;s<n;s++){
         scanf("%d",&a[s]);
     }
-    if(a[0]<0){
-    for(int s=0;s<n;s++){
-        for(int j=0;j<n-1;j++){
-            if(a[j]>a[j+1]){
-                int t=a[j];
-                a[j]=a[j+1];
-                a[j+1]=t;
-            }
-        }
-    }}
-    else{
+    
         for(int s=0;s<n;s++){
         for(int j=0;j<n-1;j++){
             if(a[j]<a[j+1]){
@@ -26,21 +16,24 @@ int main() {
             }
         }
     }
-    }
-    int k=-1;
+    int k=0;
+    int y=-1;
     for(int s=0;s<n;s++){
         for(int j=0;j<n;j++){
-            if(s==j){
+            if(a[s]==a[j]){
                 continue;
             }
-            else if(a[s]==a[j]){
+            else if(s==j){
                 continue;
             }
             else{
-                k=a[j];
+                y=a[j];
+                s=n;
+                j=n;
+                break;
             }
         }
     }
-    printf("%d",k);
+    printf("%d",y);
     return 0;
 }
