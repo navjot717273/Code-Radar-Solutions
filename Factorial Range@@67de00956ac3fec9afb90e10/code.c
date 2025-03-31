@@ -1,7 +1,7 @@
 int factorialRange(int s,int e){
-    int sum=0;
+    int sum=1;
     for(int m=s;m<=e;m++){
-        sum=0;
+        sum=1;
         if(m==0){
             printf("1");
             printf("\n");
@@ -12,7 +12,7 @@ int factorialRange(int s,int e){
         }
         else{
             for(int n=1;n<=m;n++){
-                sum=sum+n;
+                sum=sum*n;
             }
             printf("%d",sum);
             printf("\n");
